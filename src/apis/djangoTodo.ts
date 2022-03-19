@@ -1,5 +1,5 @@
-import type { DjangoTask } from '../store/slices/tasks';
 import axiosInstance from '../axiosInstance';
+import type { DjangoTask } from '../store/slices/tasks';
 
 class DjangoTodo {
   static async getTasks(): Promise<DjangoTask[]> {
